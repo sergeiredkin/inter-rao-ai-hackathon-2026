@@ -1,95 +1,104 @@
-# Inter RAO AI Hackathon 2026
+# Хакатон Интер РАО: ИИ-ассистенты для энергетики 2026
 
-Preparation repository for the **"ИИ-ассистенты для энергетики"** hackathon organized by ПАО «Интер РАО» with support from Яндекс.
+Репозиторий подготовки к хакатону **«ИИ-ассистенты для энергетики»**, организованному ПАО «Интер РАО» при поддержке Яндекса.
 
-## Purpose
+## Цель репозитория
 
-This repository contains preparation materials, analysis, concepts, and documentation for participation in the hackathon.
+Здесь собираются:
 
-The objective is to design an enterprise-grade AI assistant concept suitable for energy industry workflows.
+- анализ правил хакатона;
+- идеи проектов;
+- архитектура решения;
+- план разработки;
+- материалы для подготовки презентации.
 
-## Candidate Project Direction
+Цель — подготовить практичный прототип ИИ-решения для энергетической отрасли.
 
-### Primary concept
+## Правило оформления материалов
 
-**AI Process Engineer for Energy Operations**
+Основной язык репозитория — **русский**.
 
-An AI assistant that converts operational descriptions, regulations, and procedures into structured BPMN 2.0 process diagrams and identifies opportunities for automation and process improvement.
+Все материалы должны быть написаны:
 
-Core idea:
+- простым и понятным языком;
+- без лишнего использования сложных терминов;
+- так, чтобы их мог понять специалист с высшим образованием, но без глубокой специализации в ИИ.
 
-```
-Operational procedure / SOP
-          |
-          v
-LLM process extraction
-          |
-          v
-BPMN 2.0 generation
-          |
-          v
-Process validation
-          |
-          v
-Optimization recommendations
-```
+Английские термины используются только там, где они являются стандартом отрасли (например, BPMN, LLM, RAG), с пояснением при первом использовании.
 
-## Why this direction
+## Основная идея проекта
 
-The project combines:
+# ИИ-инженер процессов для энергетики
 
-- Energy industry domain knowledge
-- Enterprise process automation
-- Large Language Model engineering
-- Business process management
+ИИ-помощник, который помогает превращать описание рабочих процессов, инструкций и регламентов в понятные схемы процессов BPMN 2.0 и предлагает варианты улучшения.
 
-This matches the practical needs of large industrial companies where AI adoption requires integration with existing workflows.
-
-## Alternative Track
-
-**IT / Information Security Digest Assistant**
-
-Possible evolution:
+Пример работы:
 
 ```
-Information sources
+Описание процесса
         |
         v
-Threat extraction
+Анализ шагов и участников
         |
         v
-Business impact analysis
+Создание схемы BPMN
         |
         v
-Risk prioritization
+Проверка процесса
         |
         v
-Action recommendations
+Предложения по улучшению
 ```
 
-## Repository Structure
+## Почему выбран этот вариант
+
+Проект объединяет:
+
+- опыт энергетики и промышленности;
+- современные технологии ИИ;
+- автоматизацию бизнес-процессов;
+- понятный практический результат для предприятия.
+
+## Альтернативное направление
+
+ИИ-помощник для анализа ИТ и информационной безопасности:
+
+```
+Источники информации
+        |
+        v
+Анализ событий и угроз
+        |
+        v
+Оценка влияния на компанию
+        |
+        v
+Рекомендации по действиям
+```
+
+## Структура репозитория
 
 ```
 .
 ├── README.md
 ├── docs/
-│   ├── hackathon-analysis.md
-│   ├── rules-summary.md
-│   └── personal-data-consent-summary.md
+│   ├── анализ хакатона
+│   ├── правила участия
+│   └── согласие на обработку данных
 ├── ideas/
-│   └── project-concepts.md
+│   └── идеи проектов
 └── roadmap/
-    └── preparation-plan.md
+    └── план подготовки
 ```
 
-## Status
+## Текущий статус
 
-Preparation phase.
+Подготовительный этап.
 
-## Next Steps
+## Следующие шаги
 
-1. Validate participation requirements.
-2. Finalize project concept.
-3. Prepare MVP architecture.
-4. Build prototype.
-5. Prepare final demo and presentation.
+1. Уточнить требования хакатона.
+2. Выбрать финальную идею проекта.
+3. Подготовить архитектуру MVP.
+4. Создать рабочий прототип.
+5. Подготовить демонстрацию и презентацию.
